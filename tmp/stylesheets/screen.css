@@ -1,0 +1,135 @@
+/* on line 5 of stylesheets/screen.sass */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+  background: #fcfcfc;
+  padding: 0;
+  margin: 0;
+}
+
+/* on line 13 of stylesheets/screen.sass */
+header {
+  background-color: black;
+  height: 50px;
+  margin: 0;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+}
+/* on line 21 of stylesheets/screen.sass */
+header h1 {
+  color: #ffcc00;
+  margin: 0;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* on line 29 of stylesheets/screen.sass */
+header .user {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+/* on line 35 of stylesheets/screen.sass */
+header a {
+  color: white;
+  text-decoration: none;
+}
+/* on line 39 of stylesheets/screen.sass */
+header .highlighted {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #ff5555;
+}
+/* on line 44 of stylesheets/screen.sass */
+header ul {
+  list-style-type: none;
+}
+/* on line 47 of stylesheets/screen.sass */
+header ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* on line 53 of stylesheets/screen.sass */
+#infoarea {
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 50px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 0.8em;
+  display: inline;
+  overflow: hidden;
+  padding-top: 10px;
+}
+/* on line 66 of stylesheets/screen.sass */
+#infoarea #program {
+  display: inline;
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+/* on line 73 of stylesheets/screen.sass */
+#chatarea {
+  background-color: #062b3d;
+  color: white;
+  height: 100%;
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  overflow: scroll;
+}
+/* on line 83 of stylesheets/screen.sass */
+#chatarea .post {
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: black;
+  font-size: 2em;
+  margin: 3px;
+  float: left;
+  clear: both;
+}
+/* on line 94 of stylesheets/screen.sass */
+#chatarea .timestamp {
+  position: relative;
+  font-size: 0.4em;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* on line 103 of stylesheets/screen.sass */
+#chatarea .commented {
+  -moz-box-shadow: 0 0 4px 2px #ade3fc;
+  -webkit-box-shadow: 0 0 4px 2px #ade3fc;
+  box-shadow: 0 0 4px 2px #ade3fc;
+}
+
+/* on line 114 of stylesheets/screen.sass */
+#inputbar {
+  background-color: #e2e1e1;
+  min-height: 80px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+/* on line 121 of stylesheets/screen.sass */
+#inputbar textarea {
+  font-size: 1.6em;
+  padding: 5px;
+  margin: 5px;
+}
+/* on line 126 of stylesheets/screen.sass */
+#inputbar button {
+  font-size: 1.6em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  height: 60px;
+  color: black;
+  background: white;
+  margin-top: 10px;
+  vertical-align: top;
+}

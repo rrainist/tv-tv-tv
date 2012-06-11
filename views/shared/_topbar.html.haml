@@ -1,0 +1,36 @@
+%nav
+  %h1
+    %a(href="default" title="back")
+      %img(src="/images/tvtvtv.png" alt="TVTVTV")
+  %ul
+    %li
+      -if @channelnumber === "1"
+        %a(href="default" title="Yle TV1" class="highlighted") Yle TV1
+      -else
+        %a(href="default" title="Yle TV1") Yle TV1
+    %li
+      -if @channelnumber === "2"
+        %a(href="tv2" title="Yle TV2" class="highlighted") Yle TV2
+      -else
+        %a(href="tv2" title="Yle TV2") Yle TV2
+              
+    %li
+      -if @channelnumber === "3"
+        %a(href="tv3" title="MTV3" class="highlighted") MTV3  
+      -else
+        %a(href="tv3" title="MTV3") MTV3  
+    %li
+      %a(href="#" title="Nelonen") Nelonen
+    %li
+      %a(href="#" title="Yle TV2") SubTV
+    %li
+      %a(href="#" title="MTV3") YLE Teema 
+    %li
+      %a(href="#" title="JIM") JIM  
+    %li
+      %a(href="#" title="FOX") FOX
+    %li
+      %a(href="#" title="TV Viisi") TV Viisi
+      
+  .user
+    %img(src="/images/roope.png" alt="Roope Rainisto")

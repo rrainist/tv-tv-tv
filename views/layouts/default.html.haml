@@ -1,0 +1,21 @@
+!!! 5
+%html
+  %head
+    %meta(charset="utf-8")
+    %title= "#{@title} | on TVTVTV"
+    %link(rel="stylesheet" href="/stylesheets/screen.css")
+  %body
+    #container
+      %header
+        = render "/shared/topbar"
+    /
+      #infobar
+        = render "/shared/infoarea"
+    
+    #chatarea
+      = yield
+    
+    #inputbar
+      = render "/shared/inputarea"
+    
+

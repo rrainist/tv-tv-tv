@@ -1,0 +1,134 @@
+@import "shared/colors"
+@import "shared/mixins"
+
+
+body 
+  font-family: Helvetica, Arial, sans-serif
+  color: #222
+  background: #fcfcfc
+  padding: 0
+  margin: 0
+  
+ 
+header
+  background-color: $top_bar  
+  height: 50px
+  margin: 0
+  top: 0px
+  width: 100%
+  position: fixed
+
+  h1
+    color: #ffcc00
+    margin: 0
+    float: left
+    padding-left: 20px
+    padding-right: 20px
+    
+      
+  .user
+    display: inline
+    position: absolute
+    right: 10px
+    top: 10px
+  
+  a
+    color: #ffffff
+    text-decoration: none
+    
+  .highlighted
+    font-weight: bold
+    font-size: 1.1em
+    color: #ff5555
+    
+  ul
+    list-style-type: none
+     
+    li
+      display: inline
+      padding:
+        left: 10px
+        right: 10px
+     
+#infoarea
+  background-color: $info_bar_background
+
+  color: #000000
+  position: fixed
+  top: 50px
+  padding-left: 20px
+  height: 50px
+  font-size: 0.8em
+  display: inline
+  overflow: hidden
+  padding-top: 10px
+
+  #program
+    display: inline
+    font-size: 2em
+    padding-left: 10px
+
+        
+
+#chatarea
+  background-color: $chat_background
+  
+  color: $message_colour
+  height: 100%
+  position: fixed
+  top: 110px
+  width: 100%
+  overflow: scroll
+  
+  .post
+    padding-top: 10px
+    padding-left: 10px
+    
+    background-color: $chat_box
+    font-size: 2em
+    margin: 3px
+    float: left
+    clear: both
+
+    
+  .timestamp
+    position: relative
+    font-size: 0.4em
+    float: right
+    padding-right: 10px
+    padding-left: 10px
+   
+    
+    
+  .commented
+    -moz-box-shadow: 0 0 4px 2px #ade3fc
+    -webkit-box-shadow: 0 0 4px 2px #ade3fc
+    box-shadow: 0 0 4px 2px #ade3fc
+    
+    
+    
+
+  
+  
+  
+#inputbar
+  background-color: $input_background
+  min-height: 80px
+  position: fixed
+  bottom: 0px
+  width: 100%
+  
+  textarea
+    font-size: 1.6em
+    padding: 5px
+    margin: 5px
+    
+  button
+    font-size: 1.6em
+    -webkit-border-radius: 3px
+    border-radius: 3px
+    height: 60px
+    color: #000000
+    background: #ffffff
+    margin-top: 10px
+    vertical-align: top
